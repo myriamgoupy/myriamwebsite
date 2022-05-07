@@ -1,0 +1,108 @@
+/*Color and Fonts*/
+body{
+
+	background-color: #DDDDDD;
+	color: black;
+	font-family: 'Beau Rivage' cursive; 
+
+}
+	
+
+h1 {
+	color: black;
+	font-family: Arial Bold;
+	font-weight: 700px;
+	letter-spacing: 0px;
+	font-size: 40px;
+	text-transform: uppercase;
+
+} 
+h2 {
+	color: black;
+	font-family: Arial Bold;
+	font-weight: 900;
+	letter-spacing: 0px;
+	font-size: 30px;
+	text-transform: uppercase;
+
+}
+a { 
+	font-family: 'Beau Rivage' cursive;
+	text-decoration: none;
+	color: saddlebrown;
+	font-weight: 600px;
+	font-size: 20px;
+}
+
+a:hover { 
+	color: black;
+}
+
+p {
+	font-family: 'Beau Rivage' cursive;
+	text-decoration: none;
+	color: black;
+	font-weight: 600px;
+	font-size: 19px;
+}
+
+div {
+	background: white;
+	border: 0px solid black;
+	width: 800px;
+	margin: 40px auto;
+	padding: 0px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,1);
+	border-radius: 0px;
+
+}
+
+ /*Custom design with class (99% of design)*/
+.container {
+	width: 850px;
+	margin: 40px auto;
+	background-color: white;
+}
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,1);
+	border-radius: 0px;
+	text-align: center;
+
+}
+.img-circle {
+border-radius: 60%;
+
+}
+
+.btn-blue {
+	background-color: saddlebrown;
+	color: white;
+	padding: 15px 20px;
+}
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i  {
+	font-size: 50px;
+	color: rgb(230, 230, 230);
+}
+.list-inline i:hover  {
+	color: saddlebrown;
+}
+/*Design adjustments using id (1% remaining)*/
+#introduction p {
+	margin-bottom: 40px;
+
+}
+
